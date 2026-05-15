@@ -10,21 +10,21 @@ export default {
   // Hero
   "hero.greeting": "Bonjour, je suis",
   "hero.name": "Ilyass Bourass",
-  "hero.description": "Création d'applications web et mobiles évolutives avec une précision pixel-perfect.",
+  "hero.description": "Création de produits concrets en support IT, cybersécurité et développement web/mobile, avec déploiement, tests et validation sur appareils réels.",
   "hero.viewWork": "Voir mon travail",
   "hero.contactMe": "Me contacter",
   "hero.viewCv": "Voir mon CV",
 
   // Roles (for typewriter)
-  "role.fullstack": "Développeur Full Stack",
-  "role.mobile": "Développeur Mobile",
-  "role.backend": "Ingénieur Laravel",
+  "role.fullstack": "Support IT & Web/Mobile",
+  "role.mobile": "Analyste Cybersécurité",
+  "role.backend": "Développeur Laravel / React",
   "role.problemSolver": "Développeur React Native",
 
   // About
   "about.title": "À",
   "about.titleHighlight": "Propos",
-  "about.subtitle": "Profil hybride combinant le développement web/mobile et le support informatique — je construis de vrais produits, pas de simples démos.",
+  "about.subtitle": "Profil hybride combinant support IT, cybersécurité et développement web/mobile - je construis de vrais produits, pas de simples démos.",
   "about.personalInfo": "Informations Personnelles",
   "about.name": "Nom",
   "about.email": "Email",
@@ -33,16 +33,16 @@ export default {
   "about.status": "Statut",
   "about.available": "Disponible",
   "about.whoIAm": "Qui suis-je",
-  "about.bio1": "Je suis un Développeur Full Stack & Mobile basé à Nador, Maroc. Je crée des applications prêtes pour la production utilisant Laravel, React, React Native et Kotlin. Mon travail couvre les plateformes d'emploi, les systèmes de support informatique et les applications Android natives — tous déployés, testés sur de vrais appareils et soutenus par une architecture propre.",
-  "about.bio2": "J'apporte également des compétences pratiques en support informatique — diagnostic PC, dépannage et administration système sous Windows, Linux et Android.",
-  "about.stat1": "Web Full Stack",
+  "about.bio1": "Je suis un profil hybride support IT, cybersécurité et développement web/mobile basé à Nador, Maroc. Je crée des applications prêtes pour la production avec Laravel, React, React Native/Expo et Kotlin. Mon travail couvre les plateformes de support IT, les systèmes de recrutement et les applications Android, avec déploiement, tests et validation sur appareils réels.",
+  "about.bio2": "J'apporte aussi des compétences pratiques en IT et cybersécurité : diagnostic PC, dépannage, analyse de vulnérabilités, évaluation des risques, bases Linux et sécurisation des systèmes Windows, Linux et Android.",
+  "about.stat1": "Support IT / Cyber",
   "about.stat2": "Projets Livrés",
   "about.stat3": "Langues",
 
   // Skills
   "skills.title": "Technologies que",
   "skills.titleHighlight": "J'utilise",
-  "skills.subtitle": "Les outils et technologies que j'utilise pour créer des applications évolutives et performantes.",
+  "skills.subtitle": "Outils clés pour les workflows de support IT, la sécurisation des systèmes, le développement web/mobile, le déploiement et la validation.",
 
   // Experience
   "exp.title": "Mon",
@@ -68,13 +68,13 @@ export default {
   "contact.send": "Envoyer le Message",
 
   // Experience Data
-  "exp.techdesk.title": "TechDesk — Plateforme Full-Stack",
+  "exp.techdesk.title": "TechDesk / TechDesk Mobile - Plateforme web et mobile de support IT",
   "exp.techdesk.org": "Projet Personnel",
-  "exp.techdesk.desc": "Création d'une plateforme complète de support informatique et de gestion de parc — billetterie, messagerie en temps réel, base de connaissances, exports PDF/CSV et tableaux de bord par rôle.",
+  "exp.techdesk.desc": "Création d'une plateforme web et Android de support IT couvrant tickets, équipements, base de connaissances, messagerie temps réel, notifications, exports PDF/CSV et accès mobile via une APK React Native/Expo validée sur téléphone Android réel.",
   
-  "exp.jobix.title": "Jobix — Plateforme d'emploi",
+  "exp.jobix.title": "Jobix / Jobix Mobile - Plateforme web et mobile de recrutement",
   "exp.jobix.org": "Projet Personnel",
-  "exp.jobix.desc": "Plateforme d'emploi avec authentification, vérification d'email, profils publics, upload de CV, tableaux de bord entreprise/admin, et stockage cloud.",
+  "exp.jobix.desc": "Création d'une plateforme de recrutement multi-rôles avec Laravel, React, PostgreSQL, authentification, vérification email, réinitialisation de mot de passe, profils publics, tableaux candidat/recruteur/admin et client Android React Native/Expo connecté à l'API.",
   
   "exp.dormant.title": "Dormant — Gestionnaire d'Apps Android",
   "exp.dormant.org": "Projet Personnel",
@@ -96,9 +96,9 @@ export default {
   "exp.type.education": "Formation",
 
   // Projects Data
-  "proj.subtitle": "Je conçois des applications web et mobiles prêtes pour la production. Tous les projets sont déployés, testés et disponibles sur GitHub.",
-  "proj.techdesk.desc": "Plateforme full-stack de support IT — tickets, suivi du matériel, base de connaissances, messagerie, notifications et tableaux de bord.",
-  "proj.jobix.desc": "Plateforme d'emploi full-stack avec authentification, profils publics, tableaux de bord, modération admin et stockage cloud.",
+  "proj.subtitle": "Des projets ciblés qui combinent plateformes web, clients mobiles, déploiement, tests et validation sur appareils réels.",
+  "proj.techdesk.desc": "Plateforme web et Android de support IT : tickets, suivi des équipements, base de connaissances, messagerie temps réel, notifications, exports PDF/CSV, tableaux de bord et APK React Native/Expo pour les workflows mobiles.",
+  "proj.jobix.desc": "Plateforme web et Android de recrutement : application Laravel/React avec PostgreSQL, authentification, profils publics, tableaux recruteur/admin et client mobile React Native/Expo connecté à l'API.",
   "proj.jobixmobile.desc": "Client Android React Native pour Jobix avec liens profonds, notifications push et fonctionnalités complètes. Construit avec Expo.",
   "proj.techdeskmobile.desc": "Application Android compagnon pour TechDesk. Offre un accès mobile aux workflows de support et à la gestion des tickets.",
   "proj.dormant.desc": "Gestionnaire d'applications natives Android pour geler les apps. Prise en charge de Shizuku et de Root.",
@@ -114,7 +114,7 @@ export default {
   // Contact
   "contact.workTogether": "Travaillons",
   "contact.workTogetherHighlight": "Ensemble",
-  "contact.workSubtitle": "Je suis actuellement disponible pour des projets freelance et ouvert à de nouvelles opportunités.",
+  "contact.workSubtitle": "Ouvert aux opportunités en support IT, cybersécurité analyste et développement web/mobile.",
   "contact.sendEmail": "M'envoyer un Email",
   "contact.copyright": "© 2026 Ilyass Bourass. Conçu et développé avec précision.",
 };

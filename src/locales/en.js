@@ -10,21 +10,21 @@ export default {
   // Hero
   "hero.greeting": "Hello World, I'm",
   "hero.name": "Ilyass Bourass",
-  "hero.description": "Building scalable web & mobile applications with pixel-perfect precision.",
+  "hero.description": "Building practical IT support, cybersecurity, and web/mobile products with deployment, testing, and real-device validation.",
   "hero.viewWork": "View My Work",
   "hero.contactMe": "Contact Me",
   "hero.viewCv": "View CV",
 
   // Roles (for typewriter)
-  "role.fullstack": "Full Stack Developer",
-  "role.mobile": "Mobile Developer",
-  "role.backend": "Laravel Engineer",
+  "role.fullstack": "Support IT & Web/Mobile",
+  "role.mobile": "Cybersecurity Analyst",
+  "role.backend": "Laravel / React Developer",
   "role.problemSolver": "React Native Developer",
 
   // About
   "about.title": "About",
   "about.titleHighlight": "Me",
-  "about.subtitle": "Hybrid profile combining web/mobile development and IT support — building real products, not just demos.",
+  "about.subtitle": "Hybrid profile combining IT support, cybersecurity, and web/mobile development - building real products, not just demos.",
   "about.personalInfo": "Personal Info",
   "about.name": "Name",
   "about.email": "Email",
@@ -33,16 +33,16 @@ export default {
   "about.status": "Status",
   "about.available": "Available for Work",
   "about.whoIAm": "Who I Am",
-  "about.bio1": "I'm a Full Stack & Mobile Developer based in Nador, Morocco. I build production-grade applications using Laravel, React, React Native, and Kotlin. My work spans job platforms, IT support systems, and native Android apps — all deployed, tested on real devices, and backed by clean architecture.",
-  "about.bio2": "I also bring practical IT support skills — PC diagnostics, troubleshooting, and system administration across Windows, Linux, and Android environments.",
-  "about.stat1": "Web Full Stack",
+  "about.bio1": "I'm a hybrid support IT, cybersecurity, and web/mobile developer based in Nador, Morocco. I build production-grade applications using Laravel, React, React Native/Expo, and Kotlin. My work spans IT support platforms, recruitment systems, and Android apps - deployed, tested, and validated on real devices.",
+  "about.bio2": "I also bring practical IT and cybersecurity skills: PC diagnostics, troubleshooting, vulnerability analysis, risk assessment, Linux basics, and system security practices across Windows, Linux, and Android environments.",
+  "about.stat1": "Support IT / Cyber",
   "about.stat2": "Projects Shipped",
   "about.stat3": "Languages",
 
   // Skills
   "skills.title": "Technologies I",
   "skills.titleHighlight": "Use",
-  "skills.subtitle": "The tools and technologies I use to build scalable, high-performance applications.",
+  "skills.subtitle": "Core tools for IT support workflows, secure systems, web/mobile development, deployment, and validation.",
 
   // Experience
   "exp.title": "My",
@@ -68,13 +68,13 @@ export default {
   "contact.send": "Send Message",
 
   // Experience Data
-  "exp.techdesk.title": "TechDesk — Full-Stack Platform",
+  "exp.techdesk.title": "TechDesk / TechDesk Mobile - Web & Mobile IT Support Platform",
   "exp.techdesk.org": "Personal Project",
-  "exp.techdesk.desc": "Built a complete IT support & asset management platform with ticketing, real-time messaging (WebSockets), knowledge base, PDF/CSV exports, and role-based dashboards. Tested with Playwright.",
+  "exp.techdesk.desc": "Built a web and Android IT support platform covering ticketing, equipment tracking, knowledge base, real-time messaging, notifications, PDF/CSV exports, and mobile access through a React Native/Expo APK validated on a real Android phone.",
   
-  "exp.jobix.title": "Jobix — Job Board Platform",
+  "exp.jobix.title": "Jobix / Jobix Mobile - Web & Mobile Recruitment Platform",
   "exp.jobix.org": "Personal Project",
-  "exp.jobix.desc": "Full-stack job board with auth, email verification, password reset, public profiles, resume upload, recruiter/admin dashboards, and cloud storage. Deployed to Vercel + Render.",
+  "exp.jobix.desc": "Built a multi-role recruitment platform with Laravel, React, PostgreSQL, authentication, email verification, password reset, public profiles, recruiter/admin dashboards, and a React Native/Expo Android client connected to the API.",
   
   "exp.dormant.title": "Dormant — Android App Manager",
   "exp.dormant.org": "Personal Project",
@@ -96,9 +96,9 @@ export default {
   "exp.type.education": "Education",
 
   // Projects Data
-  "proj.subtitle": "I build production-grade web and mobile applications. All projects are deployed, tested, and available on GitHub.",
-  "proj.techdesk.desc": "Full-stack IT support & asset management platform — ticketing, equipment tracking, knowledge base, real-time messaging, notifications, PDF/CSV exports, and role-based dashboards for admin, technician, and employee users.",
-  "proj.jobix.desc": "Full-stack job board with authentication, email verification, resume uploads, public profiles, company dashboards, admin moderation, and cloud storage integration.",
+  "proj.subtitle": "Focused projects that combine web platforms with mobile clients, deployment, testing, and real-device validation.",
+  "proj.techdesk.desc": "Web and Android IT support platform: tickets, equipment tracking, knowledge base, real-time messaging, notifications, PDF/CSV exports, role dashboards, and a React Native/Expo APK for mobile workflows.",
+  "proj.jobix.desc": "Web and Android recruitment platform: Laravel/React web app with PostgreSQL, authentication, public profiles, recruiter/admin dashboards, and a React Native/Expo mobile client connected to the API.",
   "proj.jobixmobile.desc": "React Native Android client for Jobix with deep links, push notifications, and full job board functionality. Built with Expo and tested on real devices.",
   "proj.techdeskmobile.desc": "Android companion app for TechDesk. Provides mobile access to IT support workflows, ticket management, and notifications on the go.",
   "proj.dormant.desc": "Native Android app manager for freezing, force-stopping, and organizing installed apps. Supports Shizuku and Root modes. Signed APK validated on physical devices.",
@@ -114,7 +114,7 @@ export default {
   // Contact
   "contact.workTogether": "Let's Work",
   "contact.workTogetherHighlight": "Together",
-  "contact.workSubtitle": "I'm currently available for freelance projects and open to new opportunities. Let's build something amazing.",
+  "contact.workSubtitle": "Open to support IT, cybersecurity analyst, and web/mobile development opportunities.",
   "contact.sendEmail": "Send Me An Email",
   "contact.copyright": "© 2026 Ilyass Bourass. Designed & built with precision.",
 };

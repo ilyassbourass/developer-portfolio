@@ -10,21 +10,21 @@ export default {
   // Hero
   "hero.greeting": "مرحباً، أنا",
   "hero.name": "إلياس بوراس",
-  "hero.description": "أبني تطبيقات ويب وهواتف قابلة للتطوير بدقة عالية.",
+  "hero.description": "أبني منتجات عملية في الدعم التقني، الأمن السيبراني، وتطوير الويب والموبايل مع نشر واختبار على أجهزة حقيقية.",
   "hero.viewWork": "شاهد أعمالي",
   "hero.contactMe": "تواصل معي",
   "hero.viewCv": "سيرتي الذاتية",
 
   // Roles (for typewriter)
-  "role.fullstack": "مطور Full Stack",
-  "role.mobile": "مطور تطبيقات هواتف",
-  "role.backend": "مهندس Laravel",
+  "role.fullstack": "دعم تقني وتطوير ويب/موبايل",
+  "role.mobile": "محلل أمن سيبراني",
+  "role.backend": "مطور Laravel / React",
   "role.problemSolver": "مطور React Native",
 
   // About
   "about.title": "نبذة",
   "about.titleHighlight": "عني",
-  "about.subtitle": "ملف شخصي هجين يجمع بين تطوير الويب/الهواتف والدعم الفني — أبني منتجات حقيقية، وليس مجرد عروض.",
+  "about.subtitle": "ملف يجمع بين الدعم التقني، الأمن السيبراني، وتطوير الويب والموبايل مع التركيز على منتجات حقيقية.",
   "about.personalInfo": "معلومات شخصية",
   "about.name": "الاسم",
   "about.email": "البريد الإلكتروني",
@@ -33,16 +33,16 @@ export default {
   "about.status": "الحالة",
   "about.available": "متاح للعمل",
   "about.whoIAm": "من أنا",
-  "about.bio1": "أنا مطور Full Stack وتطبيقات هواتف مقره في الناظور، المغرب. أقوم ببناء تطبيقات جاهزة للإنتاج باستخدام Laravel و React و React Native و Kotlin. يغطي عملي منصات التوظيف، وأنظمة الدعم الفني، وتطبيقات أندرويد الأصلية — كلها مدمجة ومختبرة على أجهزة حقيقية ومدعومة ببنية نظيفة.",
-  "about.bio2": "أمتلك أيضًا مهارات عملية في الدعم الفني — تشخيص الحواسيب، وحل المشكلات، وإدارة الأنظمة في بيئات Windows و Linux و Android.",
-  "about.stat1": "تطوير شامل",
+  "about.bio1": "أنا مطور هجين في الدعم التقني، الأمن السيبراني، وتطوير الويب والموبايل من الناظور، المغرب. أبني تطبيقات جاهزة للإنتاج باستخدام Laravel و React و React Native/Expo و Kotlin، وتشمل أعمالي منصات الدعم التقني، أنظمة التوظيف، وتطبيقات أندرويد تم نشرها واختبارها على أجهزة حقيقية.",
+  "about.bio2": "أمتلك كذلك مهارات عملية في تشخيص الحواسيب، حل المشاكل، تحليل الثغرات، تقييم المخاطر، أساسيات Linux، وتأمين أنظمة Windows و Linux و Android.",
+  "about.stat1": "دعم تقني / أمن سيبراني",
   "about.stat2": "مشاريع منجزة",
   "about.stat3": "لغات مبرمجة",
 
   // Skills
   "skills.title": "تقنيات",
   "skills.titleHighlight": "أستخدمها",
-  "skills.subtitle": "الأدوات والتقنيات التي أستخدمها لبناء تطبيقات قابلة للتطوير وعالية الأداء.",
+  "skills.subtitle": "أدوات أساسية للدعم التقني، تأمين الأنظمة، تطوير الويب والموبايل، النشر والاختبار.",
 
   // Experience
   "exp.title": "مسيرتي",
@@ -68,13 +68,13 @@ export default {
   "contact.send": "إرسال الرسالة",
 
   // Experience Data
-  "exp.techdesk.title": "TechDesk — منصة شاملة",
+  "exp.techdesk.title": "TechDesk / TechDesk Mobile - منصة ويب وموبايل للدعم التقني",
   "exp.techdesk.org": "مشروع شخصي",
-  "exp.techdesk.desc": "أنشأت منصة كاملة للدعم الفني وإدارة الأصول مع نظام تذاكر، مراسلة فورية، وتصدير التقارير.",
+  "exp.techdesk.desc": "بناء منصة ويب وأندرويد للدعم التقني تشمل التذاكر، تتبع المعدات، قاعدة معرفة، مراسلة فورية، إشعارات، تصدير PDF/CSV، وتطبيق React Native/Expo تم اختباره على هاتف أندرويد حقيقي.",
   
-  "exp.jobix.title": "Jobix — منصة توظيف",
+  "exp.jobix.title": "Jobix / Jobix Mobile - منصة ويب وموبايل للتوظيف",
   "exp.jobix.org": "مشروع شخصي",
-  "exp.jobix.desc": "منصة توظيف متكاملة مع مصادقة، التحقق من البريد، الملفات الشخصية، رفع السير الذاتية، ولوحات تحكم للمدراء.",
+  "exp.jobix.desc": "بناء منصة توظيف متعددة الأدوار باستخدام Laravel و React و PostgreSQL مع تسجيل الدخول، التحقق من البريد، استرجاع كلمة المرور، ملفات عامة، ولوحات تحكم، إضافة إلى تطبيق أندرويد React Native/Expo متصل بالـ API.",
   
   "exp.dormant.title": "Dormant — إدارة تطبيقات الأندرويد",
   "exp.dormant.org": "مشروع شخصي",
@@ -96,9 +96,9 @@ export default {
   "exp.type.education": "تعليم",
 
   // Projects Data
-  "proj.subtitle": "أقوم ببناء تطبيقات ويب وهواتف عالية الجودة. جميع المشاريع منشورة ومتاحة على GitHub.",
-  "proj.techdesk.desc": "منصة شاملة للدعم الفني — تذاكر، تتبع المعدات، مراسلة، إشعارات، وتصدير PDF.",
-  "proj.jobix.desc": "منصة توظيف مع مصادقة، رفع السير الذاتية، لوحات تحكم للشركات والتخزين السحابي.",
+  "proj.subtitle": "مشاريع تجمع بين منصات الويب، تطبيقات الموبايل، النشر، الاختبار، والتحقق على أجهزة حقيقية.",
+  "proj.techdesk.desc": "منصة ويب وأندرويد للدعم التقني: تذاكر، معدات، قاعدة معرفة، مراسلة فورية، إشعارات، تصدير PDF/CSV، ولوحات تحكم مع تطبيق React Native/Expo.",
+  "proj.jobix.desc": "منصة ويب وأندرويد للتوظيف: Laravel/React و PostgreSQL مع المصادقة، الملفات العامة، لوحات تحكم، وتطبيق React Native/Expo متصل بالـ API.",
   "proj.jobixmobile.desc": "تطبيق أندرويد لـ Jobix مع إشعارات وروابط عميقة. مبني باستخدام Expo.",
   "proj.techdeskmobile.desc": "تطبيق الهاتف لمنصة TechDesk. يوفر وصولاً مبسطاً لإدارة التذاكر والإشعارات.",
   "proj.dormant.desc": "إدارة تطبيقات الأندرويد الأصلية وتجميدها مع دعم Shizuku.",
@@ -114,7 +114,7 @@ export default {
   // Contact
   "contact.workTogether": "دعنا نعمل",
   "contact.workTogetherHighlight": "معاً",
-  "contact.workSubtitle": "أنا متاح حالياً للمشاريع المستقلة ومنفتح على فرص جديدة. دعنا نبني شيئاً رائعاً.",
+  "contact.workSubtitle": "متاح لفرص في الدعم التقني، تحليل الأمن السيبراني، وتطوير الويب والموبايل.",
   "contact.sendEmail": "أرسل لي بريداً إلكترونياً",
   "contact.copyright": "© 2026 إلياس بوراس. مصمم ومطور بدقة عالية.",
 };

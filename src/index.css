@@ -738,8 +738,8 @@ section::after {
   to { opacity: 1; transform: translateY(0); }
 }
 .reveal {
-  opacity: 0;
-  transform: translateY(30px);
+  opacity: 1;
+  transform: translateY(0);
   transition: all 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .reveal.visible {

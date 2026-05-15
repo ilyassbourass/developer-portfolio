@@ -1,16 +1,16 @@
-import React, { useCallback, useState, useEffect } from 'react';
+import { useCallback, useMemo, useState, useEffect } from 'react';
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import { useLanguage } from '../context/LanguageContext';
 
 const Hero = () => {
   const { t, language } = useLanguage();
-  const roles = [
+  const roles = useMemo(() => [
     t('role.fullstack'),
     t('role.mobile'),
     t('role.backend'),
     t('role.problemSolver')
-  ];
+  ], [t]);
 
   const [roleIndex, setRoleIndex] = useState(0);
   const [displayed, setDisplayed] = useState('');
@@ -38,7 +38,7 @@ const Hero = () => {
     }
 
     return () => clearTimeout(timeout);
-  }, [displayed, isDeleting, roleIndex]);
+  }, [displayed, isDeleting, roleIndex, roles]);
 
   const particlesInit = useCallback(async engine => {
     await loadSlim(engine);

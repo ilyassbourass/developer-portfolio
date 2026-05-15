@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 
 const badgeClass = {
@@ -13,50 +13,30 @@ const Projects = () => {
 
   const projects = [
     {
-      name: 'TechDesk',
+      name: 'TechDesk / TechDesk Mobile',
       icon: '/techdesk-logo.svg',
-      badges: ['web'],
+      badges: ['web', 'mobile'],
       desc: t('proj.techdesk.desc'),
-      tags: ['Laravel', 'React', 'Vite', 'WebSockets', 'SQLite', 'Playwright'],
+      tags: ['Laravel', 'React', 'React Native', 'Expo', 'WebSockets', 'Playwright'],
       links: {
         live: 'https://techdesk-three.vercel.app',
         github: 'https://github.com/ilyassbourass/TechDesk',
+        apk: 'https://github.com/ilyassbourass/TechDesk-Mobile/releases',
       },
       featured: true,
     },
     {
-      name: 'Jobix',
+      name: 'Jobix / Jobix Mobile',
       icon: '/jobix-logo.png',
-      badges: ['web'],
+      badges: ['web', 'mobile'],
       desc: t('proj.jobix.desc'),
-      tags: ['Laravel', 'React', 'PostgreSQL', 'Tailwind', 'Cloudflare R2', 'Brevo'],
+      tags: ['Laravel', 'React', 'React Native', 'Expo', 'PostgreSQL', 'Cloudflare R2'],
       links: {
         live: 'https://www.jobixapp.com/',
         github: 'https://github.com/ilyassbourass/Jobix',
-      },
-      featured: true,
-    },
-    {
-      name: 'Jobix Mobile',
-      icon: '/jobix-logo.png',
-      badges: ['mobile'],
-      desc: t('proj.jobixmobile.desc'),
-      tags: ['React Native', 'Expo', 'TypeScript'],
-      links: {
-        github: 'https://github.com/ilyassbourass/jobix-mobile',
         apk: 'https://github.com/ilyassbourass/jobix-mobile/releases',
       },
-    },
-    {
-      name: 'TechDesk Mobile',
-      icon: '/techdesk-logo.svg',
-      badges: ['mobile'],
-      desc: t('proj.techdeskmobile.desc'),
-      tags: ['React Native', 'Expo'],
-      links: {
-        github: 'https://github.com/ilyassbourass/TechDesk-Mobile',
-        apk: 'https://github.com/ilyassbourass/TechDesk-Mobile/releases',
-      },
+      featured: true,
     },
     {
       name: 'Dormant',

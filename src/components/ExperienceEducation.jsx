@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 
 const ExperienceEducation = () => {
@@ -28,21 +28,21 @@ const ExperienceEducation = () => {
       type: t('exp.type.project'),
     },
     {
-      date: '2025 — 2026',
+      date: '2025 - 2026',
       title: t('exp.cyber.title'),
       org: t('exp.cyber.org'),
       desc: t('exp.cyber.desc'),
       type: t('exp.type.education'),
     },
     {
-      date: '2023 — 2025',
+      date: '2023 - 2025',
       title: t('exp.dts.title'),
       org: t('exp.dts.org'),
       desc: t('exp.dts.desc'),
       type: t('exp.type.education'),
     },
     {
-      date: '2022 — 2023',
+      date: '2022 - 2023',
       title: t('exp.bac.title'),
       org: t('exp.bac.org'),
       desc: t('exp.bac.desc'),
