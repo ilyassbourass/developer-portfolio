@@ -8,6 +8,20 @@ const ExperienceEducation = () => {
   const timelineData = [
     {
       date: '2026',
+      title: t('exp.rewind.title'),
+      org: t('exp.rewind.org'),
+      desc: t('exp.rewind.desc'),
+      type: t('exp.type.project'),
+    },
+    {
+      date: '2026',
+      title: t('exp.scan2wa.title'),
+      org: t('exp.scan2wa.org'),
+      desc: t('exp.scan2wa.desc'),
+      type: t('exp.type.project'),
+    },
+    {
+      date: '2026',
       title: t('exp.techdesk.title'),
       org: t('exp.techdesk.org'),
       desc: t('exp.techdesk.desc'),

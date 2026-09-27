@@ -2,6 +2,9 @@ import { useEffect, useRef } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 
 const badgeClass = {
+  ai: 'badge-ai',
+  ios: 'badge-ios',
+  desktop: 'badge-desktop',
   web: 'badge-web',
   mobile: 'badge-mobile',
   android: 'badge-android',
@@ -13,45 +16,73 @@ const Projects = () => {
 
   const projects = [
     {
+      name: 'Antigravity Rewind',
+      icon: '/antigravity-rewind-logo.png',
+      badges: ['ai', 'desktop'],
+      desc: t('proj.rewind.desc'),
+      tags: ['Python', 'SQLite Rollback Engine', 'Tailwind CSS', 'Playwright E2E', 'PyInstaller'],
+      links: {
+        github: 'https://github.com/ilyassbourass/antigravity-rewind',
+        exe: 'https://github.com/ilyassbourass/antigravity-rewind/releases/latest',
+      },
+      featured: true,
+    },
+    {
+      name: 'Scan2WA (iOS)',
+      icon: '/scan2wa-logo.png',
+      badges: ['ios', 'mobile'],
+      desc: t('proj.scan2wa.desc'),
+      tags: ['Swift 5.9', 'Apple VisionKit', 'AVFoundation', 'LiveContainer', 'XcodeGen'],
+      links: {
+        github: 'https://github.com/ilyassbourass/Scan2WA',
+        ipa: 'https://github.com/ilyassbourass/Scan2WA/releases/latest',
+      },
+      featured: true,
+    },
+    {
       name: 'TechDesk / TechDesk Mobile',
       icon: '/techdesk-logo.svg',
       badges: ['web', 'mobile'],
       desc: t('proj.techdesk.desc'),
-      tags: ['Laravel', 'React', 'React Native', 'Expo', 'WebSockets', 'Playwright'],
+      tags: ['Laravel 10', 'React 18', 'WebSockets Reverb', 'Docker', 'SLA Triage'],
       links: {
         live: 'https://techdesk-three.vercel.app',
         github: 'https://github.com/ilyassbourass/TechDesk',
         apk: 'https://github.com/ilyassbourass/TechDesk-Mobile/releases',
       },
-      featured: true,
+      featured: false,
     },
     {
       name: 'Jobix / Jobix Mobile',
       icon: '/jobix-logo.png',
       badges: ['web', 'mobile'],
       desc: t('proj.jobix.desc'),
-      tags: ['Laravel', 'React', 'React Native', 'Expo', 'PostgreSQL', 'Cloudflare R2'],
+      tags: ['Laravel 10', 'React 18', 'Neon PostgreSQL', 'Cloudflare R2', 'Vite'],
       links: {
         live: 'https://www.jobixapp.com/',
         github: 'https://github.com/ilyassbourass/Jobix',
         apk: 'https://github.com/ilyassbourass/jobix-mobile/releases',
       },
-      featured: true,
+      featured: false,
     },
     {
       name: 'Dormant',
       icon: '/dormant.jpg',
       badges: ['android'],
       desc: t('proj.dormant.desc'),
-      tags: ['Kotlin', 'Android', 'Shizuku'],
+      tags: ['Kotlin', 'Android Native', 'Shizuku API', 'Process Management'],
       links: {
         github: 'https://github.com/ilyassbourass/Dormant',
         apk: 'https://github.com/ilyassbourass/Dormant/releases/tag/v1.0.0',
       },
+      featured: false,
     },
   ];
 
   const badgeLabel = {
+    ai: t('proj.badge.ai'),
+    ios: t('proj.badge.ios'),
+    desktop: 'Desktop',
     web: t('proj.badge.web'),
     mobile: t('proj.badge.mobile'),
     android: t('proj.badge.android'),
@@ -87,6 +118,7 @@ const Projects = () => {
                   src={project.icon}
                   alt={`${project.name} logo`}
                   className="project-logo"
+                  style={{ borderRadius: '8px', objectFit: 'contain' }}
                 />
                 <h3 className="project-name">{project.name}</h3>
                 <div className="project-badges">
@@ -109,6 +141,18 @@ const Projects = () => {
                   <a href={project.links.live} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
                     {t('proj.live')}
+                  </a>
+                )}
+                {project.links.exe && (
+                  <a href={project.links.exe} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    {t('projects.downloadExe')}
+                  </a>
+                )}
+                {project.links.ipa && (
+                  <a href={project.links.ipa} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    {t('projects.downloadIpa')}
                   </a>
                 )}
                 {project.links.github && (
